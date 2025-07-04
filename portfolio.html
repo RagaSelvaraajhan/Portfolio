@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66310c3ab3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Creation of home page-->
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Portfolio</a></li>
+                <li><a href="portfolio.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="navbar-menu-toggle" onclick="showNavbar()">
+
+            <i class="fa-solid fa-bars"></i>
+        </div>
+            </nav>
+        </div>
+    </div>
+
+     <!--Side navbar-->
+
+            <div class="side-navbar">
+                <p style="text-align: right;" onclick="closeNavbar()"><i class="fa-solid fa-xmark"></i></p>
+                <div class="side-navbar-links">
+
+                    <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                    <p class="side-navbar-link"><a href="about.html">About</a></p>
+                    <p class="side-navbar-link"><a href="service.html">Portfolio</a></p>
+                    <p class="side-navbar-link"><a href="portfolio.html">Achievements</a></p>
+                    <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+                </div>
+            </div>
+
+
+    <!-- Creation of portfolio page-->
+
+    <div id="achievements">
+        <div class="container">
+            <section class="slide-up">
+            <h1 class="sub-title-achievements">Achievements</h1>
+            <div class="achievements-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C For Everyone</h2>
+                    <p>Completed "C for Everyone: Structured Programming" on Coursera, 
+                       learning C fundamentals, structured programming, functions, and control flow effectively.</p>
+                    <a href="https://coursera.org/share/09bd00e82680b9acdf581fca7689b375">Learn More </a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-stamp"></i>
+                    <h2>BEC Preliminary</h2>
+                    <p>Achieved B1 level in Cambridge BEC Preliminary, 
+                        demonstrating effective English communication skills in business contexts including 
+                        speaking, writing, and comprehension.</p>
+                    <a href="file:///C:/Users/LENOVO/Downloads/StatementOfResult.pdf">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>C++ for C Programmers</h2>
+                    <p>Completed "C++ For C Programmers Part A & B" on Coursera, mastering OOP, 
+                       STL, algorithms, and advanced C++ programming concepts.</p>
+                    <a href="https://coursera.org/share/536bba8dd831d8d2c6e961d43eee6925">Learn More</a>
+                </div>
+            </div>
+            <a href="https://coursera.org/share/d22643d6c7c7522d6c571061f797aa01" class="btn">See more</a>
+            </section>
+        </div>
+    </div>
+
+     <!--Footer-->
+
+    <div class="footer-container">
+
+        <p>Designed by Raga Selvaraajhan</p>
+        <p>Made with 💻 HTML • CSS • JavaScript</p>
+        <p>© 2025 All rights reserved.</p>
+    </div>
+
+       <script src="animation.js"></script>
+       <script src="index.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66310c3ab3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--Creation of home page-->
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Portfolio</a></li>
+                <li><a href="portfolio.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="navbar-menu-toggle" onclick="showNavbar()">
+
+            <i class="fa-solid fa-bars"></i>
+        </div>
+            </nav>
+        </div>
+    </div>
+
+
+     <!--Side navbar-->
+
+            <div class="side-navbar">
+                <p style="text-align: right;" onclick="closeNavbar()"><i class="fa-solid fa-xmark"></i></p>
+                <div class="side-navbar-links">
+
+                    <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                    <p class="side-navbar-link"><a href="about.html">About</a></p>
+                    <p class="side-navbar-link"><a href="service.html">Portfolio</a></p>
+                    <p class="side-navbar-link"><a href="portfolio.html">Achievements</a></p>
+                    <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+
+                </div>
+            </div>
+
+    <!--Creation of about page-->
+
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <section class="slide-up">
+                     <img src="profile2.jpg" >
+                     </section> 
+                </div>
+                <div class="about-col-2">
+                    <section class="slide-up">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="content">I am an Electronics and Instrumentation Engineering graduate with a strong foundation in 
+                                       Java and a passion for software development. I’ve worked on academic and personal projects 
+                                       involving object-oriented programming, data structures, and backend development. My engineering
+                                       background has sharpened my analytical thinking and system-level understanding. I'm also 
+                                       learning web technologies like HTML, CSS, JavaScript, and SQL. Eager to grow in a dynamic tech 
+                                       environment, I’m looking for opportunities to apply my skills, learn from experienced professionals, 
+                                       and contribute to real-world solutions. I'm a quick learner, team player, and highly motivated to build 
+                                       impactful applications.</p>
+                    
+                    
+                    <div class="tab-titles">
+                       <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                       <div class="tab-links" onclick="opentab('internship')">Internship</div>
+                       <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    </section>
+         
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Developement</span> <br> HTML | CSS | JavaScript </li>
+                        <li><span>Programming Language</span> <br>Java | C++ | C </li>
+                        <li><span>Database Management</span> <br> MySQL </li> 
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>2025</span> <br> Tata Group GenAI Powered Data Analytics - Internship <br> 
+                            <p>To leverage AI/ML and GenAI tools to analyze customer data, predict credit card delinquency risks, and develop an ethical, 
+                            explainable recommendation framework that enables Geldium Finance to implement effective intervention strategies and support 
+                            responsible, data-driven financial decision-making.</p></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span> <br> B.E - EIE | Dr Mahalingam College of Engineering and Technology | CGPA : 8.5</li>
+                        <li><span>2020 - 2021</span> <br> HSC | Little Kingdom Senior Secondary School | Percentage : 89</li>
+                        <li><span>2018 - 2019</span> <br> SSLC | Little Kingdom Senior Secondary School | Percentage : 82</li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>   
+                    
+        </div>
+    </div>
+
+     <!--Footer-->
+
+    <div class="footer-container">
+
+        <p>Designed by Raga Selvaraajhan</p>
+        <p>Made with 💻 HTML • CSS • JavaScript</p>
+        <p>© 2025 All rights reserved.</p>
+    </div>
+
+
+    <script src="animation.js"></script>
+    <script src="index.js"></script>
+    <script src="about.js"></script>
+    </body>
+</html>
